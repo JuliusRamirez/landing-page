@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Hero", "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+
+}
+.navbar {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 0px 50px;
+}
+.navbar .nav-logo img{
+    width: 80px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li {
+    padding: 40px 20px;
+    height: 100%;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #eee;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+/* Header Section */
+.header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;;
+}
+.header img{
+    width:  350px;
+    border-radius: 50px;
+}
+.header .mainHeader{
+    color: #eee;
+}
+.header .header-text {
+    margin: 5px 0;
+}
+.header h1.header-text{
+    font-size: 48px;
+}
+.header p.header-text{
+    color: #ddd;
+    font-size: 18px;
+}
+.header .signup-button {
+    text-decoration: none;
+    background-color: #3882f6;
+    color: #eee;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+/* Main Section */
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.mainSection h2{
+    text-align: center;
+    
+}
+.mainSection .image-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainSection li{
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.mainSection .image-list img{
+    border: 2px solid #3882f6;
+    width: 200px;
+    height: auto;
+}
+.mainSection .image-list p{
+    text-align: center;
+}
+
+/* Quote Section */
+.quoteSection{
+    display:flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 40px 40px;
+    align-content: center;
+    
+    
+}
+
+.quoteSection p{
+    font-size: 24px;
+    font-style: italic;
+    max-width: 1366px;
+    align-self: center;
+
+}
+.quoteSection b{
+   font-style: normal;
+   font-size: 18px;
+   align-self: center;
+   padding-left: 1100px;
+   
+}
+
+/* Contact Section */
+.contactSection{
+    background-color: #3882f6;
+    padding: 40px 40px;
+    color: white;
+    text-align: center;
+    max-width: 960px;
+    border-radius: 15px;
+    margin: 60px 0px;   
+    display: block;
+    margin: 60px auto;
+
+}
+.contactSection .contact-text{
+    text-align: start;
+    padding: 5px 0px;
+}
+.contactSection p{
+    color: #ddd;
+}
+.contactSection a.signup-button-light{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px;
+
+    border-radius: 15px;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 20px 100px;
+    justify-content: center;
+    align-self:flex-end;
+    position: fixed;
+    bottom: 0;
+
+}
