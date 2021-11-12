@@ -3,14 +3,22 @@
     padding: 0;
     font-family: "Hero", "Roboto", sans-serif;
 }
+html, body{
+    width: 100%;
+    height: 100vh;
+}
 .container{
     width: 100%;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
 }
 .navbar {
     background-color: #222;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 18px;
     padding: 0px 50px;
@@ -39,10 +47,15 @@
 /* Header Section */
 .header {
     background-color: #222;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 50px;;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1366;
+    
 }
 .header img{
     width:  350px;
@@ -74,6 +87,7 @@
 .mainSection {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     padding: 30px;
 }
 .mainSection h2{
@@ -128,19 +142,18 @@
 /* Contact Section */
 .contactSection{
     background-color: #3882f6;
-    padding: 40px 40px;
+    padding: 40px 60px;
     color: white;
     text-align: center;
-    max-width: 960px;
-    border-radius: 15px;
-    margin: 60px 0px;   
+    
+    border-radius: 15px; 
     display: block;
-    margin: 60px auto;
+    margin: 40px auto;
 
 }
 .contactSection .contact-text{
     text-align: start;
-    padding: 5px 0px;
+    padding: 5px 40px;
 }
 .contactSection p{
     color: #ddd;
@@ -158,17 +171,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
-footer{
+.footer{
     background-color: #1f2937;
     color: white;
-    display: flex;
     text-align: center;
-    width: 100%;
-    padding: 20px 100px;
-    justify-content: center;
-    align-self:flex-end;
-    position: fixed;
-    bottom: 0;
-
+    padding:  20px 100px;
+    
 }
